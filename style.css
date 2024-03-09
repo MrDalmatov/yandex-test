@@ -4,7 +4,19 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 body {
+  font-family: "Golos Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6 {
   font-family: "Merriweather", serif;
   font-weight: 400;
   font-style: normal;
@@ -16,24 +28,74 @@ body {
   margin: 0 auto;
 }
  /* КОНТЕЙНЕР!!!! СБРОС СТИЛЕЙ!!!*/
-p {
-  font-family: "Golos Text", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
 
 .header {
   background-image: url(images/main1.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  padding-top: 26px;
+  padding-bottom: 130px;
 }
 
 .title {
-  font-size: 60px;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
 }
 
 .header-content {
-  width: 30%;
+  margin-top: 62px;
+  max-width: 542px;
 }
+
+.header__title {
+  font-size: 60px;
+}
+
+.header__text {
+  margin-top: 24px;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+}
+
+.spacing {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons-wrapper {
+  margin-top: 40px;
+  display: flex;
+column-gap: 16px;
+}
+
+.button {
+  padding: 20px 49px;
+  font-size: 16px;
+  border: 2px solid #1f1f1f;
+  border-radius: 66px;
+  text-align: center;
+  width: 263px;
+  line-height: 130%;
+  transition: all .3s ease; 
+}
+
+.button:hover {
+  background-color: #1f1f1f;
+  color: #FFF;
+}
+
+.button--black {
+  color: #FFF;
+  background-color: #1f1f1f;
+}
+
+.button--black:hover {
+  color: #1f1f1f;
+  background-color: #FBCE51;
+  border-color: #FBCE51;
+}
+
