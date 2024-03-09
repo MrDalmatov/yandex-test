@@ -1,11 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Merriweather", serif;
   font-weight: 400;
   font-style: normal;
 }
 
+.container {
+  max-width: 1366px;
+  padding: 0 72px;
+  margin: 0 auto;
+}
+ /* КОНТЕЙНЕР!!!! СБРОС СТИЛЕЙ!!!*/
 p {
   font-family: "Golos Text", sans-serif;
   font-optical-sizing: auto;
+  font-weight: 400;
   font-style: normal;
+}
+
+.header {
+  background-image: url(images/main1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.title {
+  font-size: 60px;
+}
+
+.header-content {
+  width: 30%;
 }
